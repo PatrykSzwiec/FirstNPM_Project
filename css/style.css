@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "wisdom";
+  src: url("/vendor/WisdomScript.woff");
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("/vendor/Montserrat.ttf");
+}
+@font-face {
+  font-family: "droiditalic";
+  src: url("/vendor/DroidSerif-Italic.ttf");
+}
+@font-face {
+  font-family: "robotoslab";
+  src: url("/vendor/RobotoSlab-VariableFont_wght.ttf");
+}
+.dupa {
+  font-family: "robotoslab";
+}
 
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHFCQUFBO0VBQ0EscUNBQUE7QUNDSjtBRENBO0VBQ0kseUJBQUE7RUFDQSxrQ0FBQTtBQ0NKO0FEQ0E7RUFDSSwwQkFBQTtFQUNBLHlDQUFBO0FDQ0o7QURDQTtFQUNJLHlCQUFBO0VBQ0Esb0RBQUE7QUNDSjtBREVBO0VBQ0kseUJBQUE7QUNBSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
