@@ -14,7 +14,88 @@
     font-family: "robotoslab";
     src: url('/vendor/RobotoSlab-VariableFont_wght.ttf');
 }
-
-.dupa{
-    font-family:"robotoslab";
+/* GLOBAL */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    background-color:pink;
+}
+/* HOME SECTION */
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/images/splash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    &::after {
+        background-color: black;
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        
+    }
+    .container {
+        text-align: center;
+        z-index: 2;
+        color: white;
+        h2 {
+            font-size: 24px;
+            position: relative;
+        }
+        span {
+            font-weight:700;
+        }
+    }
+}
+nav {
+    padding: 12px 0 12px 0;
+    position: relative;
+}
+.navbar{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 60px;
+    margin: 0 13% 0 13%;
+    z-index: 2;
+    img {
+        height: 27px;
+    }
+    li a {
+        font-family: "montserrat";
+        font-size: 14px;
+        color:white;
+        text-decoration: none;
+        padding-left: 40px;
+        cursor: pointer;
+        &:hover {
+            color: yellow;
+        }
+    }
+}
+.navbar-brand {
+    font-family: "wisdom";
+    color: yellow;
+    font-size: 26px;
+}
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li {
+        display:inline-block;
+    }
 }
