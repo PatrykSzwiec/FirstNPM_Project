@@ -158,6 +158,7 @@ body {
 
 .services {
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 .services h2 {
   font-family: "montserrat";
@@ -165,7 +166,7 @@ body {
   font-weight: bold;
   margin: 10px auto;
 }
-.services h3 {
+.services h4 {
   font-family: "droiditalic";
   font-size: 16px;
   color: #777777;
@@ -175,7 +176,6 @@ body {
 .servicebox {
   flex: 0 0 33.333%;
   position: relative;
-  margin-bottom: 120px;
   width: 33.333%;
   text-align: center;
   padding: 0 35px;
@@ -206,4 +206,27 @@ body {
   border: 4px solid #fed136;
 }
 
-/* PORTFOLIO *//*# sourceMappingURL=style.css.map */
+/* PORTFOLIO */
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.portfolio h2 {
+  font-family: "montserrat";
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+.portfolio h4 {
+  font-family: "droiditalic";
+  font-size: 16px;
+  color: #777777;
+  margin-bottom: 80px;
+}/*# sourceMappingURL=style.css.map */
