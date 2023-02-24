@@ -218,6 +218,7 @@ body {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
+    margin-bottom: 50px;
 }
 .card-image {
     position: relative;
@@ -308,4 +309,65 @@ img {transition: .5s ease all; width: 100%; height:300px ; object-fit:cover;}
 .google:hover {
     color: white;
     background:#da2713;
+}
+
+@media (max-width: 767px) {
+.navbar-brand{
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    font-size: 52px;
+}
+.navbar ul {
+    margin: 0 auto;
+}
+.navbar li a {
+    padding: 0 20px 0 20px;
+}
+.splash-title {
+    transform: translateY(70%);
+    h3 {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+}
+.wrapper {
+    flex-direction: column;
+    .servicebox {
+        width: 100%;
+        padding-bottom: 30px;
+        i {
+            border-color: black;
+        }
+        p {
+            margin:0 auto;
+            width:70%;
+            text-align: center;
+            overflow-wrap: break-word;
+        }
+    }
+}
+.portfolio {
+    .container {
+        max-width: 100%;
+        .row {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}
+.footer-text {
+    padding-top: 10px;
+    order: 2;
+    p{
+        top: 0;
+        left: 0;
+        text-align: center;
+        order: 2;
+    }
+}
+.footer-icons {
+    order: 1;
+}
 }
